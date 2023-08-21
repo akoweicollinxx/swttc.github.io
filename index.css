@@ -123,7 +123,7 @@ body{
     transition: var(--transition);
 }
 .nav-link:hover{
-    color: blue;
+    color: #00afef;
 }
 .nav-link:hover::after{
     background-color: #000;
@@ -137,11 +137,11 @@ body{
 
 .home .background img{
     width: 100%;
-    height: 50vh;
+    height: 100vh;
 }
 .head{
     position: relative;
-    bottom: 260px;
+    bottom: 670px;
     text-align: center;
     margin: 10px 20px 10px;
 }
@@ -156,11 +156,12 @@ body{
     position: relative;
     bottom: 10px;
     font-size: 20px;
+    line-height: 30px;
 }
 /* Top destination################################################### */
 .top-destination{
     position: relative;
-    bottom: 120px;
+    bottom: 520px;
 }
 .d-head h2{
     font-size: 20px;
@@ -193,6 +194,10 @@ body{
     text-align: center;
 }
 /* testimonial################################################################# */
+.testimonial{
+    position: relative;
+    bottom: 400px;
+}
 .left{
     text-align: center;
 }
@@ -253,6 +258,7 @@ body{
     font-family: sans-serif;
     position: relative;
     top: 20px;
+    margin: 10px 20px 10px;
 }
 .right h4{
     font-size: 20px;
@@ -268,7 +274,7 @@ body{
 }
 /* footer############################################################### */
 .footer{
-    margin-top: 150px;
+    margin-top: 100px;
 }
 .footer-sale{
     padding-top: 150px;
@@ -424,12 +430,12 @@ body{
     top: 0;
     right: 0;
     border: 20px solid transparent;
-    border-top: 20px solid blue;
-    border-right: 20px solid blue;
+    border-top: 20px solid #00afef;
+    border-right: 20px solid #00afef;
 }
 .container-two .card.active::before{
-    border-top: 20px solid #ff3b7e;
-    border-right: 20px solid #ff3b7e;
+    border-top: 20px solid red;
+    border-right: 20px solid red;
 }
 .container-two .card .icon{
     margin-bottom: 10px;
@@ -469,7 +475,7 @@ body{
 .container-two .card .more{
     position: relative;
     padding: 10px 5px;
-    background: blue;
+    background: #00afef;
     margin-top: 15px;
     display: inline-block;
     letter-spacing: 2px;
@@ -477,7 +483,7 @@ body{
     color: #fff;
 }
 .container-two .card.active .more{
-    background: #ff3b7e;
+    background: red;
     color: #000;
 }
 .container-two .card .more::before{
@@ -489,7 +495,7 @@ body{
     content: 'Read Less';
 }
 .icon i{
-    color: blue;
+    color: #00afef;
 }
 /* About@@@@@@@@@############################################################### */
 .abt-head{
@@ -505,6 +511,7 @@ body{
 }
 .abt-head p{
     font-size: 20px;
+    line-height: 30px;
 }
 .picc img{
     width: 100%;
@@ -534,7 +541,7 @@ body{
     font-family: sans-serif;
     font-weight: 600;
     border: 1px solid transparent;
-    background: blue;
+    background: #00afef;
     color: #fff;
     padding: 10px 30px;
     border-radius: 6px;
@@ -566,7 +573,7 @@ body{
     font-weight: 600;
 }
 .contact-form span{
-    color: blue;
+    color: #00afef;
     font-family: sans-serif;
 }
 .contact-form p{
@@ -589,7 +596,7 @@ form textarea{
 }
 .contact-form form .btn{
     display: inline-block;
-    background: blue;
+    background: #00afef;
     font-size: 18px;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -633,14 +640,19 @@ form textarea{
         font-size: 30px;
     }
     /* HOME##################### */
+    .home .background img{
+        width: 100%;
+        height: 80vh;
+    }
     .head{
-        bottom: 350px;
+        bottom: 740px;
     }
     .head h1 {
         font-size: 40px;
     }
     .head p {
         font-size: 30px;
+        line-height: 40px;
     }
     /* TOP DESTINATION############### */
     .inner-one img {
@@ -685,6 +697,10 @@ form textarea{
     .socials h6 {
        font-size: 20px;
     }
+    .socials i{
+        position: relative;
+        top: 26px;
+    }
     .fa-brands, .fab {
         font-weight: 400;
         font-size: 20px;
@@ -706,7 +722,8 @@ form textarea{
     }
     .copyright {
         position: relative;
-        top: -10px;
+        top: -12px;
+        right: -60px;
     }
     /* SERVICES########################################################## */
     .serv h1 {
@@ -754,6 +771,7 @@ form textarea{
     }
     .abt-head p {
         font-size: 30px;
+        line-height: 40px;
     }
     /* CONTACT###################################### */
     .contact-form h1 {
@@ -807,16 +825,17 @@ form textarea{
        font-size: 20px;
    }
    .nav-link:hover{
-       color: blue;
+       color: #00afef;
        opacity: 0.9;
    }
+   
    /* HOME#########################? */
    .home .background img{
     height: 100vh;
     }
     .head{
     position: relative;
-    bottom: 460px;
+    bottom: 530px;
     }
     .head h1{
     font-size: 30px;
@@ -825,6 +844,10 @@ form textarea{
     font-size: 20px;
     }
     /* TOP DESTINATION################### */
+    .top-destination{
+        position: relative;
+        bottom: 200px;
+    }
     .inner-one img{
         width: 100%;
         height: 400px;
@@ -838,6 +861,10 @@ form textarea{
         text-align: center;
     }
     /* TESTIMONIAL############################# */
+    .testimonial{
+        position: relative;
+        bottom: 150px;
+    }
     .left span{
         font-size: 20px;
     }
@@ -886,6 +913,10 @@ form textarea{
     .socials {
         margin-left: 5px;
     }
+    .socials i{
+        position: relative;
+        top: -4px;
+    }
     .socials h6 {
        font-size: 10px;
     }
@@ -918,6 +949,9 @@ form textarea{
     .copyright {
         position: relative;
         top: 0px;
+    }
+    .line h2{
+        width: 93%;
     }
     /* SERVICES############################# */
     .serv h1{
