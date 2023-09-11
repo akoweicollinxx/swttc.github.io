@@ -308,8 +308,8 @@ body{
     width: 13px;
 }
 .numbers{
-    display: flex;
-    gap: 30px;
+    display: grid;
+    gap: 3px;
     position: relative;
     margin-left: 9px;
     top: 20px;
@@ -413,7 +413,7 @@ body{
     justify-content: center;
     align-items: center;
     /* width: 1200px; */
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     flex-wrap: wrap;
     top: 30px;
 }
